@@ -1,0 +1,67 @@
+.h1 {
+    display:flex;
+    font-size: 6rem;
+    color:white;
+    margin:0;
+    align-self:center;
+    padding-bottom: 3rem;
+ 
+}
+.h2 {
+    display:flex;
+    font-size: 4rem;
+    color:white;
+    margin:0;
+    align-self:center;
+ 
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding-top: 100px;
+    padding: 0 10rem;
+    background-color: #3C3C3C;
+    background-image: url('/canva.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container section {
+    
+    width: 49%;
+    height: 50%;
+    max-width: 600px;
+}
+
+.article {
+    display:flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+}
+.article h1 {
+    align-self: start;
+}
+.article p {
+    align-self: auto;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* .bg-image {
+    width: 100%;
+    
+    background-image: url('/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */

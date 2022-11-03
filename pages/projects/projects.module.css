@@ -1,0 +1,17 @@
+.grid {
+    display: grid;
+    grid-template-columns: 30rem 50rem;
+    grid-gap: 10px;
+    margin:5rem;
+
+}
+
+.p {
+    font-size: 3.5rem !important;
+
+}
+.p1 {
+    font-size: 2rem !important;
+    /* font-weight: 600; */
+    
+}

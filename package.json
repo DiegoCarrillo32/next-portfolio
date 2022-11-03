@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^7.3.6",
     "next": "12.3.1",
+    "next-translate": "^1.6.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.6.0",
+    "react-rough-notation": "^1.0.3"
   },
   "devDependencies": {
     "@types/node": "18.7.18",

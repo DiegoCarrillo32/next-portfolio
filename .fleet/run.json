@@ -1,0 +1,17 @@
+{
+    "configurations": [
+      {
+        "name": "start my app",
+        "type": "command",
+        "program": "npm",
+        "args": ["run", "dev"],
+
+
+
+
+
+      },
+
+    ],
+
+}

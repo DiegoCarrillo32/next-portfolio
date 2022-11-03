@@ -1,0 +1,20 @@
+.grid {
+    background-color: #7C46E9;
+    
+    display:grid;
+    height: 100vh;
+    grid-template-columns: auto auto ;
+    gap:1rem 1rem;
+    padding-top:80px;
+    padding:20px;
+    /* box-shadow: 0 0 5px 0 rgba(0,0,0,0.2); */
+
+}
+
+.bgi {
+    background-image: url("/pastel.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}

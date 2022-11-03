@@ -1,0 +1,46 @@
+.grid {
+    display: grid;
+    grid-template-columns: 30rem 50rem;
+    grid-gap: 10px;
+
+}
+.li {
+    
+    border-left: 2px solid #ccc;
+    transition: all 1s ease;
+    cursor: pointer;
+
+    list-style: none;
+    font-size: 5rem;
+    height:5rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.active {
+    border-left: 4px solid #ccc;
+    border-color: #376E77;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.span {
+    margin-left: 1rem;
+    font-size: 2rem;
+    
+    
+    
+}
+.p {
+    font-size: 1.8rem !important;
+
+}
+.p1 {
+    font-size: 2rem !important;
+    font-weight: 600;
+    
+}
+
+.info {
+    width: 100%;
+}
