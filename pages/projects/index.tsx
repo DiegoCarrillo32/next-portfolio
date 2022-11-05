@@ -1,16 +1,18 @@
 import Image from 'next/image'
 import React from 'react'
+import useTranslation from 'next-translate/useTranslation'
 import styles from './projects.module.css'
 const Projects = () => {
+  const { t } = useTranslation('common')
   const projects = [
     {
     name: 'Project YVY',
-    description: 'Project YvY is a web solution where farmers manage their crops and get information about weather, precipitation and soil. It is developed with Angular Framework',
+    description: t('yvyproject'),
     image: '/yvy.png',
     },
     {
     name: 'Portfolio',
-    description: 'My portfolio, developed with Next.js and designed by myself',
+    description: t('portfolioproject'),
     image: '/portfolio.png',
     },
     

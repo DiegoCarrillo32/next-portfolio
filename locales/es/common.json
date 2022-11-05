@@ -1,3 +1,16 @@
 {
-    
+    "about":"Soy un estudiante de Ingenieria en Computacion, actualmente cursando mi tercer año de carrera, soy muy autodidacta y me gusta investigar sobre nuevas tecnologias, me gustan los videojuegos, hacer ejercicio y aprender en mi tiempo libre. Soy una persona muy apuntada y me gusta ayudar en todo lo que pueda!",
+    "aboutme":"Sobre mi",
+    "wherework":"Mi experiencia",
+    "whatbuilt":"Que he construido",
+    "contact":"Contactame",
+    "experience":"Experiencia",
+    "project":"Proyectos",
+    "cv":"Curriculum",
+    "work1":"Trabajé en Nativo con tecnologias como Ruby on Rails, Mongo y AngularJS",
+    "work2":"Trabajé en CTI con tecnologias como React, desarollando una aplicación WEB",
+    "work3":"Trabajo como voluntario en Plan21 con Angular para el proyecto YvY, una solución de agricultura regenerativa, en compañia de IBM y de ITCR",
+    "yvyproject":"El proyecto YvY es una solución donde los granjeros manejan sus cultivos y obtienen información sobre el clima, precipitación y el suelo. Está desarollado con Angular",
+    "portfolioproject":"Mi portafolio, está desarollado con NextJS"
+
 }

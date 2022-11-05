@@ -1,3 +1,15 @@
 {
-    
+    "about":"I am a Computer engineer, actually going through my third year, I am a self-taught person and I like to do research about new technologies, I like videogames, doing excersize and learn in my free time. I am an enthusiastic person and I like to help in everything I can!",
+    "aboutme":"About me",
+    "wherework":"Where I've worked",
+    "whatbuilt":"What I've built",
+    "contact":"Contact me!",
+    "experience":"Experience",
+    "project":"Projects",
+    "cv":"CV",
+    "work1":"Worked in Nativo with technologies like Ruby on rails, Mongo, Angular JS",
+    "work2":"Worked in CTI with technologies like React developing and designing a mock up",
+    "work3":"Working in Plan21 with Angular for the YVY project, in companion with IBM and ITCR",
+    "yvyproject":"Project YvY is a web solution where farmers manage their crops and get information about weather, precipitation and soil. It is developed with Angular Framework",
+    "portfolioproject":"My portfolio, developed with Next.js and designed by myself"
 }

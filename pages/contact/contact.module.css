@@ -60,6 +60,10 @@
     outline: none;
 }
 
+.token {
+    background-color: #50a3b0;
+}
+
 
 @media screen and (max-width: 375px) {
     .form {

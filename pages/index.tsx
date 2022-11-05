@@ -11,6 +11,8 @@ import Contact from './contact';
 import Experience from './experience/index';
 import { Spacer } from '../components/spacer';
 import Projects from './projects';
+import useTranslation from 'next-translate/useTranslation'
+
 
 const Home: NextPage = () => {
 
@@ -18,6 +20,7 @@ const Home: NextPage = () => {
   const aboveImg = useRef(null);
   const isInViewAbove = useInView(aboveImg);
   const [Show, setShow] = useState(false)
+  const { t } = useTranslation('common')
   useEffect(()=>{
       const navbar = document.getElementById("navbar")
       const ul = document.getElementById("ul")
@@ -113,12 +116,10 @@ const Home: NextPage = () => {
             </article>
             
             <article className={styles.article}  >
-              <h1 className={styles.h1}>About me</h1>
+              <h1 className={styles.h1}>{t('aboutme')}</h1>
               <p style={{
                 fontWeight:'100',
-              }}>Soy un estudiante de Ingenieria en Computacion, actualmente cursando mi tercer año de carrera,
-              soy muy autodidacta y me gusta investigar sobre nuevas tecnologias, me gustan los videojuegos, hacer ejercicio y aprender en mi tiempo libre. 
-              Soy una persona muy apuntada y me gusta ayudar en todo lo que pueda!</p>
+              }}> {t('about')} </p>
             </article>
 
         </Section>
@@ -127,7 +128,7 @@ const Home: NextPage = () => {
         <Section color={'#3C3C3C'} bg={true}   >
             
             <article className={styles.article} >
-              <h1 className={styles.h1}>Where I{"'"}ve worked</h1>
+              <h1 className={styles.h1}> {t('wherework')} </h1>
               <Experience/>
             </article>
             <div  />
@@ -137,7 +138,7 @@ const Home: NextPage = () => {
         <Section color={'#3d3d3d'}  >
             
             <article className={styles.article} >
-                <h1 className={styles.h1}>What I{"'"}ve built</h1>
+                <h1 className={styles.h1}>{t("whatbuilt")}</h1>
                 <Projects/>
             </article>
             <div />
@@ -146,7 +147,7 @@ const Home: NextPage = () => {
 
         <Section color={"#25242B"}>
           <div>
-            <h1 className={styles.h1}>Contact me!</h1>
+            <h1 className={styles.h1}>{t('contact')}</h1>
             <Contact/>
           </div>
           <Image src={"/AvatarMaker.svg"} alt="Me" height={500} width={500} style={{

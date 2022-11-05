@@ -1,9 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import useTranslation from 'next-translate/useTranslation'
 import styles from './navbar.module.css'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = React.useState(false)
+    const { t } = useTranslation('common')
     const handleOpen = () => {
       setIsOpen(!isOpen)
     }
@@ -29,25 +31,25 @@ const Navbar = () => {
                     
                 
                 <li>
-                    <a href='#about'>About</a>
+                    <a href='#about'>{t('aboutme')} </a>
                 
                 </li>
                 <li>
-                    <a href='#exp'>Experience</a>
+                    <a href='#exp'>{t('experience')}</a>
                 
                 </li>
                 <li>
-                    <a href='#project'>Projects</a>
+                    <a href='#project'>{t('project')}</a>
                 
                 </li>
                 <li>
-                    <a href='#contact' >Contact</a>
+                    <a href='#contact' >{t('contact')}</a>
                 
                 </li>
                 <li>
                     <a href='/CVDiegoC.pdf' style={{
                         color:'#61D4F0',
-                    }}>Resumé</a>
+                    }}>{t('cv')}</a>
                 
                 </li>
             </ul>
@@ -63,26 +65,26 @@ const Navbar = () => {
                     }} href="#top"><Image src={"/icon-512x512.png"} alt="My Logo" width={100} height={100} /></a>
             </div>
             <ul id='ul'>
-                <li>
-                    <a href='#about'>About</a>
+            <li>
+                    <a href='#about'>{t('aboutme')} </a>
                 
                 </li>
                 <li>
-                    <a href='#exp'>Experience</a>
+                    <a href='#exp'>{t('experience')}</a>
                 
                 </li>
                 <li>
-                    <a href='#project'>Projects</a>
+                    <a href='#project'>{t('project')}</a>
                 
                 </li>
                 <li>
-                    <a href='#contact' >Contact</a>
+                    <a href='#contact' >{t('contact')}</a>
                 
                 </li>
                 <li>
                     <a href='/CVDiegoC.pdf' style={{
                         color:'#61D4F0',
-                    }}>Resumé</a>
+                    }}>{t('cv')}</a>
                 
                 </li>
             </ul>
