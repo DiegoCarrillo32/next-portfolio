@@ -1,6 +1,7 @@
 import React from 'react';
-// ts-ignore
-import { TfiGithub, TfiInstagram, TfiLinkedin } from 'react-icons/Tfi';
+import { TfiGithub } from 'react-icons/Tfi';
+import {  TfiInstagram } from 'react-icons/Tfi';
+import {  TfiLinkedin } from 'react-icons/Tfi';
 import styles from './footer.module.css';
 export const Footer = () => {
   return (
