@@ -1,0 +1,26 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color: #303030;
+    place-items: center;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.flex span {
+    font-size: 1.5rem;
+}
+
+.flex h4 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}

@@ -5,14 +5,15 @@ const Projects = () => {
   const projects = [
     {
     name: 'Project YVY',
-    description: 'Tfi is a social media app that allows users to share their thoughts and ideas with the world. Users can create posts, follow other users, and like and comment on posts. Tfi is built with React, Next.js, and Firebase.',
-    image: '/Avatar2.png',
+    description: 'Project YvY is a web solution where farmers manage their crops and get information about weather, precipitation and soil. It is developed with Angular Framework',
+    image: '/yvy.png',
     },
     {
     name: 'Portfolio',
-    description: 'Tfi is a social media app that allows users to share their thoughts and ideas with the world. Users can create posts, follow other users, and like and comment on posts. Tfi is built with React, Next.js, and Firebase.',
-    image: '/Avatar.png',
+    description: 'My portfolio, developed with Next.js and designed by myself',
+    image: '/portfolio.png',
     },
+    
 ]
   return (
     <div>
@@ -23,7 +24,7 @@ const Projects = () => {
               <h2 className={styles.p}  > {pro.name} </h2>
               <h3 className={styles.p1} > {pro.description} </h3>
             </div>
-            <Image src={pro.image} alt={pro.description} width={200} height={200} />
+            <Image src={pro.image} alt={pro.description} width={300} height={300}  />
 
           </div>
           

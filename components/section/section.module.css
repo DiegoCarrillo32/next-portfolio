@@ -1,8 +1,8 @@
 .grid {
-    background-color: #7C46E9;
+    background-color: #3C3C3C;
     
     display:grid;
-    height: 100vh;
+    height: auto;
     grid-template-columns: auto auto ;
     gap:1rem 1rem;
     padding-top:80px;
@@ -12,9 +12,31 @@
 }
 
 .bgi {
+    height: 100vh;
     background-image: url("/pastel.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     
 }
+
+
+@media screen and (max-width: 375px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0.5rem;
+        margin: 0;
+    }
+}
+    
+@media screen and (max-width: 320px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0.5rem;
+        margin: 0;
+        padding: 0;
+    }
+}
+    

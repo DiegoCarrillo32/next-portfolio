@@ -1,17 +1,30 @@
 .grid {
     display: grid;
-    grid-template-columns: 30rem 50rem;
-    grid-gap: 10px;
+    grid-template-columns: 30rem auto;
+    grid-gap: 10rem;
     margin:5rem;
 
 }
 
 .p {
     font-size: 3.5rem !important;
+    border-bottom: 1px solid white;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 
 }
 .p1 {
     font-size: 2rem !important;
-    /* font-weight: 600; */
+    font-weight: 100;
     
 }
+
+@media screen and (max-width: 1024px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0.5rem;
+        margin: 1rem;
+    }
+}
+    

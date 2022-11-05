@@ -44,3 +44,20 @@
 .info {
     width: 100%;
 }
+
+@media screen and (max-width:375px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    
+    }
+}
+@media screen and (max-width:768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    
+    }
+}

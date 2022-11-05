@@ -122,12 +122,13 @@ const Home: NextPage = () => {
               </div>
             </article>
             
-            <article className={styles.article} style={{
-              paddingLeft:'5rem'
-            }} >
+            <article className={styles.article}  >
               <h1 className={styles.h1}>About me</h1>
-              <p>Soy un estudiante de Ingenieria en Computacion, actualmente cursando mi tercer año de carrera,
-              soy muy autodidacta y me gusta investigar sobre nuevas tecnologias, me gustan los videojuegos, hacer ejercicio y aprender en mi tiempo libre</p>
+              <p style={{
+                fontWeight:'100',
+              }}>Soy un estudiante de Ingenieria en Computacion, actualmente cursando mi tercer año de carrera,
+              soy muy autodidacta y me gusta investigar sobre nuevas tecnologias, me gustan los videojuegos, hacer ejercicio y aprender en mi tiempo libre. 
+              Soy una persona muy apuntada y me gusta ayudar en todo lo que pueda!</p>
             </article>
 
         </Section>
@@ -135,27 +136,33 @@ const Home: NextPage = () => {
       <Spacer id={"exp"}/>
         <Section color={'#3C3C3C'} bg={true}   >
             
-            <article className={styles.article} style={{
-              paddingLeft:'5rem'
-            }} >
+            <article className={styles.article} >
               <h1 className={styles.h1}>Where I{"'"}ve worked</h1>
               <Experience/>
             </article>
-            <article  />
+            <div  />
         </Section>
         
       <Spacer id={"project"}/>
         <Section color={'#3d3d3d'}  >
-            <article />
-            <article className={styles.article}>
-                <h1 className={styles.h1}>Projects</h1>
+            
+            <article className={styles.article} >
+                <h1 className={styles.h1}>What I{"'"}ve built</h1>
                 <Projects/>
             </article>
+            <div />
         </Section>
+        <Spacer id={"contact"} />
 
-        <Section>
-          <h1></h1>
-          <Contact/>
+        <Section color={"#25242B"}>
+          <div>
+            <h1 className={styles.h1}>Contact me!</h1>
+            <Contact/>
+          </div>
+          <Image src={"/AvatarMaker.svg"} alt="Me" height={500} width={500} style={{
+            opacity:'0.5',
+            filter:'grayscale(100%)'
+          }} />
         </Section>
         
         <Footer/>

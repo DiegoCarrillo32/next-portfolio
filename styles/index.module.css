@@ -7,6 +7,15 @@
     padding-bottom: 3rem;
  
 }
+.h1:after {
+    background-color: #25242B;
+    content: "";
+    height: 0.5rem;
+    margin: auto auto auto 10px;
+    width: 20rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem  grey;
+}
 .h2 {
     display:flex;
     font-size: 4rem;
@@ -22,6 +31,7 @@
     justify-content: space-between;
     align-items: center;
     height: 100vh;
+    width: 100%;
     padding-top: 100px;
     padding: 0 10rem;
     background-color: #3C3C3C;
@@ -40,10 +50,8 @@
 
 .article {
     display:flex;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* align-items: center; */
     flex-direction: column;
+    padding-left: 5rem;
 }
 .article h1 {
     align-self: start;
@@ -57,11 +65,21 @@
     padding: 0;
 }
 
-/* .bg-image {
-    width: 100%;
-    
-    background-image: url('/banner.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-} */
+@media screen and (max-width: 375px) {
+    .container {
+        padding: 0 2rem;
+    }
+    .article {
+        padding: 0;
+    }
+    .h1::after {
+        display: none;
+    }
+
+}
+@media screen and (max-width: 320px) {
+    .h1 p {
+        font-size: 5rem;
+    }
+
+}
