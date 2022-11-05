@@ -69,3 +69,11 @@
         grid-gap: 3rem;
     }
 }
+@media screen and (max-width: 425px) {
+    .form {
+        width: auto;
+    }
+    .form-input{
+        grid-gap: 3rem;
+    }
+}

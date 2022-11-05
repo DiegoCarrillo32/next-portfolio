@@ -75,11 +75,23 @@
     .h1::after {
         display: none;
     }
-
+}
+@media screen and (max-width: 425px) {
+    .container {
+        padding: 0 2rem;
+    }
+    .article {
+        padding: 0;
+    }
+    .h1::after {
+        display: none;
+    }
+    
 }
 @media screen and (max-width: 320px) {
     .h1 p {
         font-size: 5rem;
     }
+    
 
 }
