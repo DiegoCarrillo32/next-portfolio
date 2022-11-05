@@ -11,7 +11,7 @@ export const Footer = () => {
           marginTop: '-18px'
         }} >{t('contactme')} </h4>
           <span>{t('email')} : dcgreenforest@gmail.com</span>
-          <span>{t('phone')} : (+506) 865543228 </span>
+          <span>{t('phone')} : (+506) 85543228 </span>
       </div>
       <div className={styles.flex}>
         <h4>{t('social')} </h4>
