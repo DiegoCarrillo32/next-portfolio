@@ -20,7 +20,7 @@ const Home: NextPage = () => {
   const aboveImg = useRef(null);
   const isInViewAbove = useInView(aboveImg);
   const [Show, setShow] = useState(false)
-  const { t } = useTranslation('common')
+  const { t, lang } = useTranslation('common')
   useEffect(()=>{
       const navbar = document.getElementById("navbar")
       const ul = document.getElementById("ul")
@@ -89,6 +89,16 @@ const Home: NextPage = () => {
 
                   <Image src={"/instagram.svg"} height={32} width={32} alt="Instagram page" style={{filter: "invert(100%) sepia(0%) saturate(0%) hue-rotate(2deg) brightness(103%) contrast(104%)"}} />
                 </a>
+                {
+                  lang === 'en' ?
+                  <a href={"/es"} style={{margin:'1rem'}}>
+                    <Image src={"/spain.svg"} height={32} width={34} alt="Spanish site" />
+                  </a>
+                  :
+                  <a href={"/"} style={{margin:'1rem'}}>
+                    <Image src={"/usa.svg"} height={32} width={34} alt="English site"  />
+                  </a>
+                }
               
             
             </div>
