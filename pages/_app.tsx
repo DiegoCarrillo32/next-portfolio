@@ -3,6 +3,8 @@ import type { AppProps } from 'next/app'
 import Navbar from '../components/navbar'
 import Head from 'next/head'
 import { Toaster } from 'react-hot-toast'
+import Script from 'next/script'
+
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -18,7 +20,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="description" content="I am a Computer engineer, focues on web solutions!"/>
         <link rel="icon" href="./pixil-frame-0.png" />
         <link rel="apple-touch-icon" href="./logo192.png" />
+        
       </Head>
+      <Script async src="https://kit.fontawesome.com/aa779b8b2f.js" crossOrigin="anonymous"/>
       <Navbar/>
       <Component {...pageProps} />
       <Toaster  position="top-left"

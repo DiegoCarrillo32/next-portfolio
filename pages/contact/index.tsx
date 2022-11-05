@@ -1,4 +1,4 @@
-import React, {useRef} from 'react'
+import React, {useRef, useState} from 'react'
 
 import emailjs from '@emailjs/browser';
 import toast from 'react-hot-toast';
@@ -8,8 +8,8 @@ import ReCAPTCHA from "react-google-recaptcha";
 import styles from './contact.module.css'
 const Contact = () => {
   const form = useRef(null);
-  const recaptcha = useRef(null);
-  const [Enable, setEnable] = React.useState(true);
+  const recaptcha = useRef<any>(null);
+  const [Enable, setEnable] = useState(true);
   const onChange = (value:any) => {
     
     if(recaptcha?.current?.getValue()){

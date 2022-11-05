@@ -1,7 +1,5 @@
+import Image from 'next/image';
 import React from 'react';
-import { TfiGithub } from 'react-icons/Tfi';
-import {  TfiInstagram } from 'react-icons/Tfi';
-import {  TfiLinkedin } from 'react-icons/Tfi';
 import styles from './footer.module.css';
 export const Footer = () => {
   return (
@@ -17,24 +15,17 @@ export const Footer = () => {
         <h4>Redes</h4>
         <div>
 
-          <a href={"https://github.com/DiegoCarrillo32"}>
-                <TfiGithub size={32}  style={{
-                  cursor:'pointer',
-                  margin:'1rem'
-                }} />
+        <a href={"https://github.com/DiegoCarrillo32"} style={{margin:'1rem'}}>
+                <Image src={"/github-alt.svg"} height={32} width={32} alt="Github" style={{filter: "invert(100%) sepia(0%) saturate(0%) hue-rotate(2deg) brightness(103%) contrast(104%)"}} />
+                
+              </a>
+                <a href={"https://www.linkedin.com/in/diego-carrillo-695a39208/"} style={{margin:'1rem'}}>
+                <Image src={"/linkedin.svg"} height={32} width={32} alt="Linked in page" style={{filter: "invert(100%) sepia(0%) saturate(0%) hue-rotate(2deg) brightness(103%) contrast(104%)"}} />
+                
                 </a>
-                <a href={"https://www.linkedin.com/in/diego-carrillo-695a39208/"}>
-                <TfiLinkedin size={32}  style={{
-                  cursor:'pointer',
-                  margin:'1rem'
-                }}/>
-                </a>
-                <a href={"https://www.instagram.com/datacode32/"}>
+                <a href={"https://www.instagram.com/datacode32/"} style={{margin:'1rem'}}>
 
-                  <TfiInstagram size={32}  style={{
-                    cursor:'pointer',
-                    margin:'1rem'
-                  }}/>
+                  <Image src={"/instagram.svg"} height={32} width={32} alt="Instagram page" style={{filter: "invert(100%) sepia(0%) saturate(0%) hue-rotate(2deg) brightness(103%) contrast(104%)"}} />
                 </a>
         </div>
             
