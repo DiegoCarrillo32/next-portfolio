@@ -1,18 +1,20 @@
 import Image from 'next/image';
 import React from 'react';
+import useTranslation from 'next-translate/useTranslation'
 import styles from './footer.module.css';
 export const Footer = () => {
+  const { t } = useTranslation('common')
   return (
     <footer className={styles.grid} >
       <div className={styles.flex}>
         <h4 style={{
           marginTop: '-18px'
-        }} >Contacto</h4>
-          <span>Email: dcgreenforest@gmail.com</span>
-          <span>Phone: (+506) 865543228 </span>
+        }} >{t('contactme')} </h4>
+          <span>{t('email')} : dcgreenforest@gmail.com</span>
+          <span>{t('phone')} : (+506) 865543228 </span>
       </div>
       <div className={styles.flex}>
-        <h4>Redes</h4>
+        <h4>{t('social')} </h4>
         <div>
 
         <a href={"https://github.com/DiegoCarrillo32"} style={{margin:'1rem'}}>

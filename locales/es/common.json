@@ -11,6 +11,10 @@
     "work2":"Trabajé en CTI con tecnologias como React, desarollando una aplicación WEB",
     "work3":"Trabajo como voluntario en Plan21 con Angular para el proyecto YvY, una solución de agricultura regenerativa, en compañia de IBM y de ITCR",
     "yvyproject":"El proyecto YvY es una solución donde los granjeros manejan sus cultivos y obtienen información sobre el clima, precipitación y el suelo. Está desarollado con Angular",
-    "portfolioproject":"Mi portafolio, está desarollado con NextJS"
+    "portfolioproject":"Mi portafolio, está desarollado con NextJS",
+    "contactme":"Contacto",
+    "social":"Redes",
+    "email":"Correo",
+    "phone":"Telefono"
 
 }
