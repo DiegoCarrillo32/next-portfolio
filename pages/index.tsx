@@ -7,10 +7,10 @@ import { useEffect, useRef, useState } from 'react';
 import {Section} from "../components/section";
 import Image from 'next/image';
 import { Footer } from '../components/footer';
-import Contact from './contact';
-import Experience from './experience/index';
+import Contact from '../components/contact';
+import Experience from '../components/experience/index';
 import { Spacer } from '../components/spacer';
-import Projects from './projects';
+import Projects from '../components/projects';
 import useTranslation from 'next-translate/useTranslation'
 
 
