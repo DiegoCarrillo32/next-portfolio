@@ -15,5 +15,6 @@
     "contactme":"Contact",
     "social":"Social media",
     "email":"Email",
-    "phone":"Phone"
+    "phone":"Phone",
+    "blog":"Mi blog personal, desarollado con NextJS, para escribir articulos sobre cosas relacionadas a tecnologia!"
 }

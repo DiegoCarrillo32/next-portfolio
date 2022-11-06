@@ -95,7 +95,7 @@ const Home: NextPage = () => {
                     <Image src={"/spain.svg"} height={32} width={34} alt="Spanish site" />
                   </a>
                   :
-                  <a href={"/"} style={{margin:'1rem'}}>
+                  <a href={"/en"} style={{margin:'1rem'}}>
                     <Image src={"/usa.svg"} height={32} width={34} alt="English site"  />
                   </a>
                 }

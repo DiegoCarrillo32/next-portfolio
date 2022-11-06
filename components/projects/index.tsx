@@ -9,11 +9,22 @@ const Projects = () => {
     name: 'Project YVY',
     description: t('yvyproject'),
     image: '/yvy.png',
+    github: 'https://github.com/daniel-rojas28/project-yvy',
+    web:'https://yvyapp.plan21.org/'
     },
     {
     name: 'Portfolio',
     description: t('portfolioproject'),
     image: '/portfolio.png',
+    github: 'https://github.com/DiegoCarrillo32/next-portfolio',
+    web:'https://www.diegocarrillodev.com/'
+    },
+    {
+    name: 'Blog',
+    description: t('blog'),
+    image: '/blog.png',
+    github: 'https://github.com/DiegoCarrillo32/next-blog',
+    web:'https://blog.diegocarrillodev.com/'
     },
     
 ]
@@ -25,6 +36,12 @@ const Projects = () => {
             <div>
               <h2 className={styles.p}  > {pro.name} </h2>
               <h3 className={styles.p1} > {pro.description} </h3>
+              <a href={pro.github} style={{margin:'1rem'}}>
+                <Image src={"/github-alt.svg"} height={32} width={32} alt="Github" style={{filter: "invert(100%) sepia(0%) saturate(0%) hue-rotate(2deg) brightness(103%) contrast(104%)"}} />
+              </a>
+              <a href={pro.web} style={{margin:'1rem'}}>
+                <Image src={"/chrome.svg"} height={32} width={32} alt="Web link" style={{filter: "invert(100%) sepia(0%) saturate(0%) hue-rotate(2deg) brightness(103%) contrast(104%)"}} />
+              </a>
             </div>
             <Image src={pro.image} alt={pro.description} width={300} height={300}  />
 

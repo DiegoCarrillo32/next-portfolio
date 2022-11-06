@@ -47,7 +47,7 @@ const Contact = () => {
         <input name='user_email' type={'email'} placeholder="Email"/>
         <input name='user_phone'  type={'number'} placeholder="Phone number"/>
         <textarea name="user_message" id="" placeholder='Message'></textarea>
-        <button type='submit' disabled={Enable}  >Send</button>   
+        <button type='submit' disabled={Enable}>Send</button>   
       </div>
         <ReCAPTCHA
         style={{
