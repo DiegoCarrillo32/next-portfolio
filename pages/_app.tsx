@@ -20,6 +20,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="description" content="I am a Computer engineer, focues on web solutions!"/>
         <link rel="icon" href="./pixil-frame-0.png" />
         <link rel="apple-touch-icon" href="./logo192.png" />
+        <link rel="shortcut icon" href="/favicon.ico" />
         
       </Head>
       <Script async src="https://kit.fontawesome.com/aa779b8b2f.js" crossOrigin="anonymous"/>
