@@ -35,6 +35,7 @@ const Contact = () => {
         success: 'Message sent',
         error: 'Could not send message',
       });
+      setEnable(true);
     }
   
   };
