@@ -35,6 +35,7 @@ const Contact = () => {
         success: 'Message sent',
         error: 'Could not send message',
       });
+      form.current.reset();
       setEnable(true);
     }
   
@@ -44,7 +45,7 @@ const Contact = () => {
       <div className={styles['form-input']}>
         <input name='from_name' type={'text'} placeholder="Name"/>
         <input name='last_name' type={'text'} placeholder="Last name"/>
-        <input name='user_email' type={'email'} placeholder="Email"/>
+        <input name='user_email' title='Invalid email' pattern='/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/' type={'email'} placeholder="Email"/>
         <input name='user_phone'  type={'number'} placeholder="Phone number"/>
         <textarea name="user_message" id="" placeholder='Message'></textarea>
         <button type='submit' disabled={Enable}>Send</button>   
