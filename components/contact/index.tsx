@@ -4,7 +4,7 @@ import toast from 'react-hot-toast';
 import ReCAPTCHA from "react-google-recaptcha";
 import styles from './contact.module.css'
 const Contact = () => {
-  const form = useRef(null);
+  const form = useRef<HTMLFormElement>(null);
   const recaptcha = useRef<any>(null);
   const [Enable, setEnable] = useState(true);
   const onChange = () => {
