@@ -1,5 +1,5 @@
 {
-    "about":"I am a Computer engineer, actually going through my third year, I am a self-taught person and I like to do research about new technologies, I like videogames, doing excersize and learn in my free time. I am an enthusiastic person and I like to help in everything I can!",
+    "about":"I am a Computer engineer, actually going through my third year, I am a self-taught person and I like to do research about new technologies, I like videogames, doing exercise and learn in my free time. I am an enthusiastic person and I like to help in everything I can!",
     "aboutme":"About me",
     "wherework":"Where I've worked",
     "whatbuilt":"What I've built",
@@ -16,5 +16,5 @@
     "social":"Social media",
     "email":"Email",
     "phone":"Phone",
-    "blog":"My personal blog, develoepd with NextJS, It is used for writing articles related to technology!"
+    "blog":"My personal blog, developed with NextJS, It is used for writing articles related to technology!"
 }
