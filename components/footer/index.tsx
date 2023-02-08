@@ -10,7 +10,7 @@ export const Footer = () => {
         <h4 style={{
           marginTop: '-18px'
         }} >{t('contactme')} </h4>
-          <span>{t('email')} : dcgreenforest@gmail.com</span>
+          <span>{t('email')} : diegocarrilloa@outlook.com</span>
           <span>{t('phone')} : (+506) 85543228 </span>
       </div>
       <div className={styles.flex}>
@@ -20,7 +20,7 @@ export const Footer = () => {
                 <Image src={"/github-alt.svg"} height={32} width={32} alt="Github" style={{filter: "invert(100%) sepia(0%) saturate(0%) hue-rotate(2deg) brightness(103%) contrast(104%)"}} />
                 
               </a>
-                <a href={"https://www.linkedin.com/in/diego-carrillo-695a39208/"} style={{margin:'1rem'}}>
+                <a href={"https://www.linkedin.com/in/diegocarrillodev/"} style={{margin:'1rem'}}>
                 <Image src={"/linkedin.svg"} height={32} width={32} alt="Linked in page" style={{filter: "invert(100%) sepia(0%) saturate(0%) hue-rotate(2deg) brightness(103%) contrast(104%)"}} />
                 </a>
                 <a href={"https://www.instagram.com/datacode32/"} style={{margin:'1rem'}}>
