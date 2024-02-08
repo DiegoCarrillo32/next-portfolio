@@ -13,20 +13,20 @@ const Experience = () => {
     {
       title: 'Fullstack Developer',
       company: 'Nativo',
-      date: '2021 November - February 2022',
+      date: '2021 December - February 2022',
       description: t('work1'),
     },
     {
       title: 'Frontend Developer',
-      company: 'Canam Technologic',
-      date: '2022 July - September 2022',
-      description: t('work2'),
+      company: 'Plan 21',
+      date: '2021 September - 2023 April',
+      description: t('work3'),
     },
     {
-      title: 'Frontend Developer',
-      company: 'Plan 21',
-      date: '2021 July - Present',
-      description: t('work3'),
+      title: 'Fullstack Developer',
+      company: 'Freelance',
+      date: '2023 July - Present',
+      description: t('work4'),
     },
   ]
   const [Active, setActive] = React.useState(experience[0] as Exp)
