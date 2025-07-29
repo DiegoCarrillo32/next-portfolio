@@ -21,7 +21,7 @@ const Projects = () => {
     },
     {
       name: "Samantha Zul",
-      description: t(""),
+      description: t("zulportfolio"),
       image: "/zul-portfolio.webp",
       web: "https://www.samanthazul.com",
     },
