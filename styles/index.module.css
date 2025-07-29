@@ -3,7 +3,7 @@
   font-size: 6rem;
   color: white;
   margin: 0;
-  align-self: center;
+  /* align-self: center; */
   padding-bottom: 3rem;
 }
 .h1:after {
@@ -21,6 +21,10 @@
   color: white;
   margin: 0;
   align-self: center;
+}
+
+.title {
+  font-size: 60px;
 }
 
 .container {

@@ -6,7 +6,6 @@ import { useEffect, useRef, useState } from "react";
 import { Section } from "../components/section";
 import Image from "next/image";
 import { Footer } from "../components/footer";
-import Contact from "../components/contact";
 import Experience from "../components/experience/index";
 import { Spacer } from "../components/spacer";
 import Projects from "../components/projects";
@@ -49,6 +48,7 @@ const Home: NextPage = () => {
               }}
             >
               <p
+                className={styles.title}
                 style={{
                   textShadow: "3px 3px 0px rgb(55, 110, 119)",
                 }}
@@ -60,7 +60,7 @@ const Home: NextPage = () => {
           <section>
             <RoughNotationGroup show>
               <RoughNotation type="highlight" color="#60D5F1" show={Show}>
-                <h1 className={styles.h2}>FRONTEND</h1>
+                <h2 className={styles.h2}>FRONTEND</h2>
               </RoughNotation>
               <RoughNotation
                 type="highlight"
@@ -68,7 +68,7 @@ const Home: NextPage = () => {
                 show={Show}
                 animationDelay={200}
               >
-                <h1 className={styles.h2}>BACKEND</h1>
+                <h2 className={styles.h2}>BACKEND</h2>
               </RoughNotation>
             </RoughNotationGroup>
           </section>
@@ -95,7 +95,7 @@ const Home: NextPage = () => {
               />
             </a>
             <a
-              href={"https://www.linkedin.com/in/diego-carrillo-695a39208/"}
+              href={"https://www.linkedin.com/in/diegocarrillodev/"}
               style={{ margin: "1rem" }}
             >
               <Image
@@ -173,7 +173,7 @@ const Home: NextPage = () => {
         </article>
 
         <article className={styles.article}>
-          <h1 className={styles.h1}>{t("aboutme")}</h1>
+          <h2 className={styles.h1}>{t("aboutme")}</h2>
           <p
             style={{
               fontWeight: "100",
@@ -188,7 +188,7 @@ const Home: NextPage = () => {
       <Spacer id={"exp"} />
       <Section color={"#3C3C3C"} bg={true}>
         <article className={styles.article}>
-          <h1 className={styles.h1}> {t("wherework")} </h1>
+          <h2 className={styles.h1}> {t("wherework")} </h2>
           <Experience />
         </article>
         <div />
@@ -197,24 +197,12 @@ const Home: NextPage = () => {
       <Spacer id={"project"} />
       <Section color={"#3d3d3d"}>
         <article className={styles.article}>
-          <h1 className={styles.h1}>{t("whatbuilt")}</h1>
+          <h2 className={styles.h1}>{t("whatbuilt")}</h2>
           <Projects />
         </article>
         <div />
       </Section>
       <Spacer id={"contact"} />
-
-      {/* <Section color={"#25242B"}>
-          <div>
-            <h1 className={styles.h1}>{t('contact')}</h1>
-            <Contact/>
-          </div>
-          <Image src={"/AvatarMaker.svg"} alt="Me" height={500} width={500} style={{
-            opacity:'0.5',
-            filter:'grayscale(100%)'
-          }} />
-        </Section> */}
-
       <Footer />
     </div>
   );
