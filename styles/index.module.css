@@ -1,97 +1,90 @@
 .h1 {
-    display:flex;
-    font-size: 6rem;
-    color:white;
-    margin:0;
-    align-self:center;
-    padding-bottom: 3rem;
- 
+  display: flex;
+  font-size: 6rem;
+  color: white;
+  margin: 0;
+  align-self: center;
+  padding-bottom: 3rem;
 }
 .h1:after {
-    background-color: #25242B;
-    content: "";
-    height: 0.5rem;
-    margin: auto auto auto 10px;
-    width: 20rem;
-    border-radius: 0.5rem;
-    box-shadow: 0.1rem 0.1rem 0.1rem  grey;
+  background-color: #25242b;
+  content: "";
+  height: 0.5rem;
+  margin: auto auto auto 10px;
+  width: 20rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 0.1rem grey;
 }
 .h2 {
-    display:flex;
-    font-size: 4rem;
-    color:white;
-    margin:0;
-    align-self:center;
- 
+  display: flex;
+  font-size: 4rem;
+  color: white;
+  margin: 0;
+  align-self: center;
 }
 
-
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    padding-top: 100px;
-    padding: 0 10rem;
-    background-color: #3C3C3C;
-    background-image: url('/canva.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding-top: 100px;
+  padding: 0 10rem;
+  background-color: #3c3c3c;
+  background-image: url("/canva.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .container section {
-    
-    width: 49%;
-    height: 50%;
-    max-width: 600px;
+  width: 49%;
+  height: 50%;
+  max-width: 600px;
 }
 
 .article {
-    display:flex;
-    flex-direction: column;
-    padding-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5rem;
 }
 .article h1 {
-    align-self: start;
+  align-self: start;
 }
 .article p {
-    align-self: auto;
-    font-size: 2.5rem;
-    line-height: 1.5;
-    color: white;
-    margin: 0;
-    padding: 0;
+  align-self: auto;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 375px) {
-    .container {
-        padding: 0 2rem;
-    }
-    .article {
-        padding: 0;
-    }
-    .h1::after {
-        display: none;
-    }
+  .container {
+    padding: 0 2rem;
+  }
+  .article {
+    padding: 0;
+  }
+  .h1::after {
+    display: none;
+  }
 }
 @media screen and (max-width: 425px) {
-    .container {
-        padding: 0 2rem;
-    }
-    .article {
-        padding: 0;
-    }
-    .h1::after {
-        display: none;
-    }
-    
+  .container {
+    padding: 0 2rem;
+  }
+  .article {
+    padding: 0;
+  }
+  .h1::after {
+    display: none;
+  }
 }
 @media screen and (max-width: 320px) {
-    .h1 p {
-        font-size: 5rem;
-    }
-    
-
+  .h1 p {
+    font-size: 5rem;
+  }
 }

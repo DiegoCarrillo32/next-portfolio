@@ -8,21 +8,21 @@ const Projects = () => {
     {
       name: "Project YVY",
       description: t("yvyproject"),
-      image: "/yvy.png",
+      image: "/yvy.webp",
       github: "https://github.com/daniel-rojas28/project-yvy",
       web: "https://yvyapp.plan21.org/",
     },
     {
       name: "Portfolio",
       description: t("portfolioproject"),
-      image: "/portfolio.png",
+      image: "/portfolio.webp",
       github: "https://github.com/DiegoCarrillo32/next-portfolio",
       web: "https://www.diegocarrillo.com/",
     },
     {
       name: "Samantha Zul",
       description: t(""),
-      image: "/zul-portfolio.png",
+      image: "/zul-portfolio.webp",
       web: "https://www.samanthazul.com",
     },
   ];

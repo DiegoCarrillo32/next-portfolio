@@ -1,51 +1,47 @@
 .grid {
-    background-color: #3C3C3C;
-    
-    display:grid;
-    height: auto;
-    grid-template-columns: auto auto ;
-    gap:1rem 1rem;
-    padding-top:80px;
-    padding:20px;
-    /* box-shadow: 0 0 5px 0 rgba(0,0,0,0.2); */
+  background-color: #3c3c3c;
 
+  display: grid;
+  height: auto;
+  grid-template-columns: auto auto;
+  gap: 1rem 1rem;
+  padding-top: 80px;
+  padding: 20px;
+  /* box-shadow: 0 0 5px 0 rgba(0,0,0,0.2); */
 }
 
 .bgi {
-    height: 100vh;
-    background-image: url("/pastel.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
+  height: 100vh;
+  background-image: url("/pastel.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
 
 @media screen and (max-width: 375px) {
-    .grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 0.5rem;
-        margin: 0;
-    }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.5rem;
+    margin: 0;
+  }
 }
-    
+
 @media screen and (max-width: 320px) {
-    .grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 0.5rem;
-        margin: 0;
-        padding: 0;
-    }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.5rem;
+    margin: 0;
+    padding: 0;
+  }
 }
 @media screen and (max-width: 425px) {
-    .grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 0.5rem;
-        margin: 0;
-        padding: 0;
-    }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.5rem;
+    margin: 0;
+    padding: 0;
+  }
 }
-    
